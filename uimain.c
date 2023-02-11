@@ -33,6 +33,11 @@ int main()
       for (char c = 'A'; c < 'D'; c++)
 	print_char_11x16(c);
       break;
+    case 'x':
+      puts("You selected custom font:");
+      for(char c = 'A'; c < 'E'; c++)
+        print_char_5x7(c);
+      break;
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */
